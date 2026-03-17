@@ -8,7 +8,7 @@ X-WR-CALNAME:UVSQ DFASM1
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:01fe321e6f281e7a478876cd7e1e76997227a130@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260224T100000
 DTEND;TZID=Europe/Paris:20260224T120000
 SUMMARY:TD\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMED245-UE12a -
@@ -22,7 +22,7 @@ CATEGORIES:TD
 END:VEVENT
 BEGIN:VEVENT
 UID:5d69066e015f79f00509defb714dbcf71aca556f@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260223T170000
 DTEND;TZID=Europe/Paris:20260223T190000
 SUMMARY:Conférence\n\n\n\n\n\n\n\n\n\nMSMEDS28-Psychiatrie [MSMEDS28]\n\n
@@ -36,7 +36,7 @@ CATEGORIES:Conférence
 END:VEVENT
 BEGIN:VEVENT
 UID:200d4e8696efcb186ca2b37b719a4bdfeb0e35e6@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260309T170000
 DTEND;TZID=Europe/Paris:20260309T190000
 SUMMARY:Conférence\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS22
@@ -51,7 +51,7 @@ CATEGORIES:Conférence
 END:VEVENT
 BEGIN:VEVENT
 UID:7be1166d528f10ade7bba48458bd95a8af9b76c9@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260226T080000
 DTEND;TZID=Europe/Paris:20260226T100000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS23-Hém
@@ -66,7 +66,7 @@ CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
 UID:806d7be087837e633a34789b98e7a9295b172a14@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260226T100000
 DTEND;TZID=Europe/Paris:20260226T170000
 SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS23-
@@ -81,7 +81,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:0f739205649fb7bd75805353b29f44e04d2a2f90@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260227T090000
 DTEND;TZID=Europe/Paris:20260227T170000
 SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS23-
@@ -96,7 +96,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:d511de9a6a6bde667636b283e35d39ee4fa7c246@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260312T080000
 DTEND;TZID=Europe/Paris:20260312T100000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS20-End
@@ -111,7 +111,7 @@ CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
 UID:9ac3a7299e6145b4b9319ac87db1b62deb094568@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260312T100000
 DTEND;TZID=Europe/Paris:20260312T170000
 SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS20-
@@ -126,7 +126,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:decef0b4233dbe446fc7352fb5163b745656bc52@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260313T090000
 DTEND;TZID=Europe/Paris:20260313T170000
 SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS20-
@@ -141,7 +141,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:102a0c09c42f697d42613732df4ce6b2a30c6f51@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260324T140000
 DTEND;TZID=Europe/Paris:20260324T160000
 SUMMARY:Autres\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nDF
@@ -154,7 +154,7 @@ CATEGORIES:Autres
 END:VEVENT
 BEGIN:VEVENT
 UID:c20a2d34b027fc3e0d2d206fd485ce61d1b2a60d@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260327T140000
 DTEND;TZID=Europe/Paris:20260327T160000
 SUMMARY:Conférence\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS11
@@ -168,53 +168,8 @@ LOCATION:UFR SIMONE VEIL
 CATEGORIES:Conférence
 END:VEVENT
 BEGIN:VEVENT
-UID:8a13977e998ae2469b1969f49327b8eba175fd4a@uvsq
-DTSTAMP:20260316T012318Z
-DTSTART;TZID=Europe/Paris:20260316T170000
-DTEND;TZID=Europe/Paris:20260316T190000
-SUMMARY:Option de Réservation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\
- n\n\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE CONFIRMATION\nConférenc
- e orthopédie\n\n\n\n\n\n
-DESCRIPTION:Option de Réservation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\
- n\n\n\n\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE CONFIRMATION\nConfé
- rence orthopédie\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil S
- anté\nCatégorie: Option de Réservation
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Option de Réservation
-END:VEVENT
-BEGIN:VEVENT
-UID:5abe2ba096c17ce5ddd5c626d3de1a8a75655ddb@uvsq
-DTSTAMP:20260316T012318Z
-DTSTART;TZID=Europe/Paris:20260318T170000
-DTEND;TZID=Europe/Paris:20260318T190000
-SUMMARY:Option de Réservation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\
- n\n\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE CONFIRMATION\nConférenc
- e orthopédie\n\n\n\n\n\n
-DESCRIPTION:Option de Réservation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\
- n\n\n\n\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE CONFIRMATION\nConfé
- rence orthopédie\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil S
- anté\nCatégorie: Option de Réservation
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Option de Réservation
-END:VEVENT
-BEGIN:VEVENT
-UID:f0b460c0552ec01c917605b04569c5de37563012@uvsq
-DTSTAMP:20260316T012318Z
-DTSTART;TZID=Europe/Paris:20260323T170000
-DTEND;TZID=Europe/Paris:20260323T190000
-SUMMARY:Option de Réservation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\
- n\n\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE CONFIRMATION\nConférenc
- e orthopédie\n\n\n\n\n\n
-DESCRIPTION:Option de Réservation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\
- n\n\n\n\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE CONFIRMATION\nConfé
- rence orthopédie\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil S
- anté\nCatégorie: Option de Réservation
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Option de Réservation
-END:VEVENT
-BEGIN:VEVENT
 UID:777962fe458afb10e6ce37e365526d3a974e38b8@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260325T170000
 DTEND;TZID=Europe/Paris:20260325T190000
 SUMMARY:Conférence\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n
@@ -227,7 +182,7 @@ CATEGORIES:Conférence
 END:VEVENT
 BEGIN:VEVENT
 UID:4d1aa5d84c70aeb7f7c3d14b45135fc9490925a6@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260507T103000
 DTEND;TZID=Europe/Paris:20260507T123000
 SUMMARY:TD\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMED245-UE12a -
@@ -241,22 +196,21 @@ CATEGORIES:TD
 END:VEVENT
 BEGIN:VEVENT
 UID:6866a3d29e183075e01ca50e61507ab5759e3dc6@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260409T100000
 DTEND;TZID=Europe/Paris:20260409T120000
-SUMMARY:Révision\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMED245-U
- E12a - LCA [MSMED245]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nRévisions\nLCA\n
- \n\n\n\n\n
-DESCRIPTION:Révision\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMED2
- 45-UE12a - LCA [MSMED245]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nRévisions\nL
- CA\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil Santé\nCatégori
- e: Révision\nModules: MSMED245
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Révision
+SUMMARY:CM en distanciel\n\n\n\n\n\n\n\n\n\nMSMED245-UE12a - LCA [MSMED24
+ 5]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nZOOM \nEN ATTENTE CONFIRMATION\nRév
+ isions\nLCA\n\n\n\n\n\n
+DESCRIPTION:CM en distanciel\n\n\n\n\n\n\n\n\n\nMSMED245-UE12a - LCA [MSM
+ ED245]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nZOOM \nEN ATTENTE CONFIRMATION\
+ nRévisions\nLCA\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil Sa
+ nté\nCatégorie: CM en distanciel\nModules: MSMED245
+CATEGORIES:CM en distanciel
 END:VEVENT
 BEGIN:VEVENT
 UID:fd1546a405c6841db939d42566add62293238acf@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260619T080000
 DTEND;TZID=Europe/Paris:20260619T170000
 SUMMARY:Examen\n\n\n\n\nSalle du conseil\nSV Amphi 1 Gilles Chiocchia\nSV
@@ -275,7 +229,7 @@ CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
 UID:de021a77842063318d2b2ab20c0a66314c0fbb4a@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260420T170000
 DTEND;TZID=Europe/Paris:20260420T190000
 SUMMARY:Conférence\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS23
@@ -289,25 +243,8 @@ LOCATION:UFR SIMONE VEIL
 CATEGORIES:Conférence
 END:VEVENT
 BEGIN:VEVENT
-UID:27c907aa360d406ace0b055a39537a942cb0ba4e@uvsq
-DTSTAMP:20260316T012318Z
-DTSTART;TZID=Europe/Paris:20260407T170000
-DTEND;TZID=Europe/Paris:20260407T190000
-SUMMARY:Annulation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS20
- -Endocrinologie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nA
- NNULATION \nEN ATTENTE NOUVELLE \nDATE\nUE Transversale\nEndocrinologie\
- n\n\n\n\n\n
-DESCRIPTION:Annulation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSME
- DS20-Endocrinologie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\
- n\nANNULATION \nEN ATTENTE NOUVELLE \nDATE\nUE Transversale\nEndocrinolo
- gie\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil Santé\nCatégor
- ie: Annulation\nModules: MSMEDS20
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Annulation
-END:VEVENT
-BEGIN:VEVENT
 UID:66234058219d7f9aa96ffe8cea8dde429e57c3a5@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260422T080000
 DTEND;TZID=Europe/Paris:20260422T100000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS21-Péd
@@ -322,7 +259,7 @@ CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
 UID:7ecfd660910278b6e03c81642884c4f72f4fa9e5@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260422T100000
 DTEND;TZID=Europe/Paris:20260422T170000
 SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS21-
@@ -337,7 +274,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:7e86111e14fb2cf90c8bffdc54b338ba4eaa72e2@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260423T090000
 DTEND;TZID=Europe/Paris:20260423T170000
 SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS21-
@@ -352,7 +289,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:a00666f85d68d832540e638619abf7640fa22e37@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260424T090000
 DTEND;TZID=Europe/Paris:20260424T170000
 SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS21-
@@ -367,7 +304,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:301ba3492393025de168698336da27520a766d0c@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260518T170000
 DTEND;TZID=Europe/Paris:20260518T190000
 SUMMARY:Conférence\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS21
@@ -382,7 +319,7 @@ CATEGORIES:Conférence
 END:VEVENT
 BEGIN:VEVENT
 UID:5e265267d851be000c0cdd02ab50cd18f1963f23@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260611T080000
 DTEND;TZID=Europe/Paris:20260611T170000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV Salle
@@ -396,7 +333,7 @@ CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
 UID:9cf25838a816823f3489a0026f06f5fe36827164@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260612T080000
 DTEND;TZID=Europe/Paris:20260612T170000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV Salle
@@ -410,7 +347,7 @@ CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
 UID:4a261ecaaad53801326200c0bc5012352ef31c1d@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260608T080000
 DTEND;TZID=Europe/Paris:20260608T190000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\n\n\n\n\n
@@ -423,7 +360,7 @@ CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
 UID:33bcbc5a67af797907ea58b27dbc761ce897ef63@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260605T080000
 DTEND;TZID=Europe/Paris:20260605T190000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV Salle
@@ -436,50 +373,17 @@ LOCATION:UFR SIMONE VEIL
 CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
-UID:cbc2119f30ed6ae2739ffcaa24d6bd83167426b4@uvsq
-DTSTAMP:20260316T012318Z
-DTSTART;TZID=Europe/Paris:20260408T170000
-DTEND;TZID=Europe/Paris:20260408T190000
-SUMMARY:Option de Réservation\n\n\n\n\nSV Amphi 2\n\n\n\n\nMSMEDS20-Endoc
- rinologie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTE
- NTE CONFIRMATION\nUE Transversale\nEndocrinologie\n\n\n\n\n\n
-DESCRIPTION:Option de Réservation\n\n\n\n\nSV Amphi 2\n\n\n\n\nMSMEDS20-E
- ndocrinologie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN 
- ATTENTE CONFIRMATION\nUE Transversale\nEndocrinologie\n\n\n\n\n\n\n\nDép
- artement: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: Option de Réservat
- ion\nModules: MSMEDS20
-CATEGORIES:Option de Réservation
-END:VEVENT
-BEGIN:VEVENT
 UID:2657c553652ec7a59cedab24329652f1c5e50e79@uvsq
-DTSTAMP:20260316T012318Z
+DTSTAMP:20260317T011456Z
 DTSTART;TZID=Europe/Paris:20260421T170000
 DTEND;TZID=Europe/Paris:20260421T190000
-SUMMARY:Option de Réservation\n\n\n\n\nSV Amphi 2\n\n\n\n\nMSMEDS20-Endoc
- rinologie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTE
- NTE CONFIRMATION\nUE Transversale\nEndocrinologie\n\n\n\n\n\n
-DESCRIPTION:Option de Réservation\n\n\n\n\nSV Amphi 2\n\n\n\n\nMSMEDS20-E
- ndocrinologie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN 
- ATTENTE CONFIRMATION\nUE Transversale\nEndocrinologie\n\n\n\n\n\n\n\nDép
- artement: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: Option de Réservat
- ion\nModules: MSMEDS20
-CATEGORIES:Option de Réservation
-END:VEVENT
-BEGIN:VEVENT
-UID:6045caaf0ce8306c9526770fb24e122cac13e93e@uvsq
-DTSTAMP:20260316T012318Z
-DTSTART;TZID=Europe/Paris:20260507T133000
-DTEND;TZID=Europe/Paris:20260507T153000
-SUMMARY:Option de Réservation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\
- n\nMSMEDS20-Endocrinologie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]
- \n\n\n\n\nEN ATTENTE CONFIRMATION\nUE Transversale\nEndocrinologie\n\n\n
- \n\n\n
-DESCRIPTION:Option de Réservation\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\
- n\n\n\nMSMEDS20-Endocrinologie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFA
- SM1]\n\n\n\n\nEN ATTENTE CONFIRMATION\nUE Transversale\nEndocrinologie\n
- \n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: O
- ption de Réservation\nModules: MSMEDS20
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Option de Réservation
+SUMMARY:Conférence\n\n\n\n\nSV Amphi 2\n\n\n\n\nMSMEDS20-Endocrinologie_N
+ utrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nConférence UE Tran
+ sversale\nEndocrinologie\n\n\n\n\n\n
+DESCRIPTION:Conférence\n\n\n\n\nSV Amphi 2\n\n\n\n\nMSMEDS20-Endocrinolog
+ ie_Nutrition [MSMEDS20]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nConférence UE 
+ Transversale\nEndocrinologie\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR S
+ imone Veil Santé\nCatégorie: Conférence\nModules: MSMEDS20
+CATEGORIES:Conférence
 END:VEVENT
 END:VCALENDAR
