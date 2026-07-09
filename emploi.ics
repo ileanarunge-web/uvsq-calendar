@@ -8,7 +8,7 @@ X-WR-CALNAME:UVSQ DFASM1
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:fd1546a405c6841db939d42566add62293238acf@uvsq
-DTSTAMP:20260708T014651Z
+DTSTAMP:20260709T015920Z
 DTSTART;TZID=Europe/Paris:20260619T080000
 DTEND;TZID=Europe/Paris:20260619T170000
 SUMMARY:Examen\n\n\n\n\nSalle du conseil\nSV Amphi 1 Gilles Chiocchia\nSV
@@ -26,70 +26,8 @@ LOCATION:UFR SIMONE VEIL
 CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
-UID:656a9964225551869fd700b80681c5cb77e365c6@uvsq
-DTSTAMP:20260708T014651Z
-DTSTART;TZID=Europe/Paris:20260608T090000
-DTEND;TZID=Europe/Paris:20260608T100000
-SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV Salle
-  11\nVIP\n\n\n\n\nMSMEDS23-Hématologie [MSMEDS23]\n\n\n\n\nDFASM1 [DFASM
- 1]\n\n\n\n\nHématologie\n\n\n\n\n\n
-DESCRIPTION:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV S
- alle 11\nVIP\n\n\n\n\nMSMEDS23-Hématologie [MSMEDS23]\n\n\n\n\nDFASM1 [D
- FASM1]\n\n\n\n\nHématologie\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Si
- mone Veil Santé\nCatégorie: Examen\nModules: MSMEDS23
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Examen
-END:VEVENT
-BEGIN:VEVENT
-UID:4c8724026e75a2342a72bf4c60e8ad7dc278d821@uvsq
-DTSTAMP:20260708T014651Z
-DTSTART;TZID=Europe/Paris:20260608T104500
-DTEND;TZID=Europe/Paris:20260608T114500
-SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV Salle
-  11\nVIP\n\n\n\n\nMSMEDS20-Endocrinologie_Nutrition [MSMEDS20]\n\n\n\n\n
- DFASM1 [DFASM1]\n\n\n\n\nEndocrinologie - Nutrition\n\n\n\n\n\n
-DESCRIPTION:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV S
- alle 11\nVIP\n\n\n\n\nMSMEDS20-Endocrinologie_Nutrition [MSMEDS20]\n\n\n
- \n\nDFASM1 [DFASM1]\n\n\n\n\nEndocrinologie - Nutrition\n\n\n\n\n\n\n\nD
- épartement: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: Examen\nModules:
-  MSMEDS20
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Examen
-END:VEVENT
-BEGIN:VEVENT
-UID:6ab441dd1ed212f6226d2b693ad319e376346509@uvsq
-DTSTAMP:20260708T014651Z
-DTSTART;TZID=Europe/Paris:20260608T130000
-DTEND;TZID=Europe/Paris:20260608T143000
-SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV Salle
-  11\nVIP\n\n\n\n\nMSMEDS24-LCA (Lecture Critique d'Article en anglais) [
- MSMEDS24]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nLCA\n\n\n\n\n\n
-DESCRIPTION:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV S
- alle 11\nVIP\n\n\n\n\nMSMEDS24-LCA (Lecture Critique d'Article en anglai
- s) [MSMEDS24]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nLCA\n\n\n\n\n\n\n\nDépar
- tement: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: Examen\nModules: MSM
- EDS24
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Examen
-END:VEVENT
-BEGIN:VEVENT
-UID:b2bc5f296018541d1397da82f5b183dbc8c9c369@uvsq
-DTSTAMP:20260708T014651Z
-DTSTART;TZID=Europe/Paris:20260608T151500
-DTEND;TZID=Europe/Paris:20260608T164500
-SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV Salle
-  11\nVIP\n\n\n\n\nMSMED290-UE TRANSVERSALE - M1 - S2 [MSMED290]\n\n\n\n\
- nDFASM1 [DFASM1]\n\n\n\n\nUE transversale\n\n\n\n\n\n
-DESCRIPTION:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV S
- alle 11\nVIP\n\n\n\n\nMSMED290-UE TRANSVERSALE - M1 - S2 [MSMED290]\n\n\
- n\n\nDFASM1 [DFASM1]\n\n\n\n\nUE transversale\n\n\n\n\n\n\n\nDépartement
- : PIF\nUFR: UFR Simone Veil Santé\nCatégorie: Examen\nModules: MSMED290
-LOCATION:UFR SIMONE VEIL
-CATEGORIES:Examen
-END:VEVENT
-BEGIN:VEVENT
 UID:7dc21be768914b0964532c76c4f4e3758a8a8fb5@uvsq
-DTSTAMP:20260708T014651Z
+DTSTAMP:20260709T015920Z
 DTSTART;TZID=Europe/Paris:20260612T153000
 DTEND;TZID=Europe/Paris:20260612T170000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Amphi 2\nSV Salle
@@ -103,20 +41,8 @@ LOCATION:UFR SIMONE VEIL
 CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
-UID:e7fa063c3efa18305263237d752c1de744d5d432@uvsq
-DTSTAMP:20260708T014651Z
-DTSTART;TZID=Europe/Paris:20260608T170000
-DTEND;TZID=Europe/Paris:20260608T173000
-SUMMARY:Autres\n\n\n\n\nSV Amphi 2\n\n\n\n\n\n\n\n\n\nDFASM1 [DFASM1]\n\n
- \n\n\nPrésentation ECOS\ndu 19/06\n\n\n\n\n\n
-DESCRIPTION:Autres\n\n\n\n\nSV Amphi 2\n\n\n\n\n\n\n\n\n\nDFASM1 [DFASM1]
- \n\n\n\n\nPrésentation ECOS\ndu 19/06\n\n\n\n\n\n\n\nDépartement: PIF\nU
- FR: UFR Simone Veil Santé\nCatégorie: Autres
-CATEGORIES:Autres
-END:VEVENT
-BEGIN:VEVENT
 UID:28b79ba8f0173efb94e73048e3fc575298ab608d@uvsq
-DTSTAMP:20260708T014651Z
+DTSTAMP:20260709T015920Z
 DTSTART;TZID=Europe/Paris:20260626T080000
 DTEND;TZID=Europe/Paris:20260626T113000
 SUMMARY:CM\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nDFASM1
@@ -129,7 +55,7 @@ CATEGORIES:CM
 END:VEVENT
 BEGIN:VEVENT
 UID:47e305bc6851ad141df5e7fbc13fb7b49708b1c7@uvsq
-DTSTAMP:20260708T014651Z
+DTSTAMP:20260709T015920Z
 DTSTART;TZID=Europe/Paris:20260720T080000
 DTEND;TZID=Europe/Paris:20260720T180000
 SUMMARY:Examen\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\nSV Salle 11\n\n\n\n\
@@ -142,7 +68,7 @@ CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
 UID:de4be3ac7afa8904eb3302a17f5d039968287a29@uvsq
-DTSTAMP:20260708T014651Z
+DTSTAMP:20260709T015920Z
 DTSTART;TZID=Europe/Paris:20260908T170000
 DTEND;TZID=Europe/Paris:20260908T190000
 SUMMARY:CM\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nDFASM1
@@ -155,7 +81,7 @@ CATEGORIES:CM
 END:VEVENT
 BEGIN:VEVENT
 UID:1a9f1b64030862bcdcfd057264df0d539480385a@uvsq
-DTSTAMP:20260708T014651Z
+DTSTAMP:20260709T015920Z
 DTSTART;TZID=Europe/Paris:20261103T163000
 DTEND;TZID=Europe/Paris:20261103T190000
 SUMMARY:CM\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nDFASM1
