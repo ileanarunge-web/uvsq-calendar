@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UVSQ Exporter//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:UVSQ DFASM2
+X-WR-CALNAME:UVSQ DFASM2
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+UID:ab6d3f2bf9f370ddf6cf512984dfe53b4e49c6c1@uvsq
+DTSTAMP:20260902T115548Z
+DTSTART;TZID=Europe/Paris:20260929T153000
+DTEND;TZID=Europe/Paris:20260929T170000
+SUMMARY:Rentrée\n\n\n\n\nSV Amphi 2\n\n\n\n\n\n\n\n\n\nDFASM2 [DFASM2]\n\
+ n\n\n\nRentrée DFASM2\n\n\n\n\n\n
+DESCRIPTION:Rentrée\n\n\n\n\nSV Amphi 2\n\n\n\n\n\n\n\n\n\nDFASM2 [DFASM2
+ ]\n\n\n\n\nRentrée DFASM2\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simo
+ ne Veil Santé\nCatégorie: Rentrée
+CATEGORIES:Rentrée
+END:VEVENT
+BEGIN:VEVENT
+UID:6d58a78137ad1e025ed30b175af0bd1c62971a6f@uvsq
+DTSTAMP:20260902T115548Z
+DTSTART;TZID=Europe/Paris:20261202T080000
+DTEND;TZID=Europe/Paris:20261202T180000
+SUMMARY:Examen\n\n\n\n\nSV SALLE 1\nSV Salle 10\nSV Salle 11\nSV Salle 12
+ \nSV SALLE 2\nSV SALLE 3\nSV SALLE 4\nSV SALLE 5\nSV SALLE 6\nSV SALLE 7
+ \nSV SALLE 8\nSV SALLE 9\n\n\n\n\n\n\n\n\n\nDFASM2 [DFASM2]\n\n\n\n\nECO
+ S\n\n\n\n\n\n
+DESCRIPTION:Examen\n\n\n\n\nSV SALLE 1\nSV Salle 10\nSV Salle 11\nSV Sall
+ e 12\nSV SALLE 2\nSV SALLE 3\nSV SALLE 4\nSV SALLE 5\nSV SALLE 6\nSV SAL
+ LE 7\nSV SALLE 8\nSV SALLE 9\n\n\n\n\n\n\n\n\n\nDFASM2 [DFASM2]\n\n\n\n\
+ nECOS\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil Santé\nCatég
+ orie: Examen
+CATEGORIES:Examen
+END:VEVENT
+END:VCALENDAR
