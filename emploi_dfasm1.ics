@@ -8,103 +8,93 @@ X-WR-CALNAME:UVSQ DFASM1
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:de4be3ac7afa8904eb3302a17f5d039968287a29@uvsq
-DTSTAMP:20260902T115546Z
+DTSTAMP:20260902T121941Z
 DTSTART;TZID=Europe/Paris:20260908T170000
 DTEND;TZID=Europe/Paris:20260908T190000
-SUMMARY:CM\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nDFASM1
-  [DFASM1]\n\n\n\n\nRéunion\nPrésentation ECOS\n\n\n\n\n\n
-DESCRIPTION:CM\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nDF
- ASM1 [DFASM1]\n\n\n\n\nRéunion\nPrésentation ECOS\n\n\n\n\n\n\n\nDéparte
- ment: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: CM
-LOCATION:UFR SIMONE VEIL
+SUMMARY:CM – RéunionPrésentation ECOS
+DESCRIPTION:RéunionPrésentation ECOS\nSalle(s) : SV Amphi 1 Gilles Chiocc
+ hia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : CM
+LOCATION:SV Amphi 1 Gilles Chiocchia
 CATEGORIES:CM
 END:VEVENT
 BEGIN:VEVENT
 UID:4098f527692fe50153d4f073026164ae22c87906@uvsq
-DTSTAMP:20260902T115546Z
+DTSTAMP:20260902T121941Z
 DTSTART;TZID=Europe/Paris:20260910T080000
 DTEND;TZID=Europe/Paris:20260910T180000
-SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS13-
- Gynécologie Obstétrique [MSMEDS13]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN 
- ATTENTE HORAIRES\nSéminaire \nGynécologie - Obstétrique\n\n\n\n\n\n
-DESCRIPTION:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMED
- S13-Gynécologie Obstétrique [MSMEDS13]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\
- nEN ATTENTE HORAIRES\nSéminaire \nGynécologie - Obstétrique\n\n\n\n\n\n\
- n\nDépartement: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: Séminaire\nM
- odules: MSMEDS13
-LOCATION:UFR SIMONE VEIL
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS13-Gynécologie
+  Obstétrique [MSMEDS13]\, DFASM1 [DFASM1]\, EN ATTENTE HORAIRESSéminaire
+  Gynécologie - Obstétrique\nDépartement : PIF\nUFR : UFR Simone Veil San
+ té\nCatégorie : Séminaire\nModules : MSMEDS13
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS13-Gynécologie Obstétrique [
+ MSMEDS13]\, DFASM1 [DFASM1]\, EN ATTENTE HORAIRESSéminaire Gynécologie -
+  Obstétrique
 CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:41de98cc5607cd9d83504c77ffa1ce8f1ed7f30d@uvsq
-DTSTAMP:20260902T115546Z
+DTSTAMP:20260902T121941Z
 DTSTART;TZID=Europe/Paris:20260911T080000
 DTEND;TZID=Europe/Paris:20260911T180000
-SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS13-
- Gynécologie Obstétrique [MSMEDS13]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN 
- ATTENTE HORAIRES\nSéminaire \nGynécologie - Obstétrique\n\n\n\n\n\n
-DESCRIPTION:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMED
- S13-Gynécologie Obstétrique [MSMEDS13]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\
- nEN ATTENTE HORAIRES\nSéminaire \nGynécologie - Obstétrique\n\n\n\n\n\n\
- n\nDépartement: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: Séminaire\nM
- odules: MSMEDS13
-LOCATION:UFR SIMONE VEIL
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS13-Gynécologie
+  Obstétrique [MSMEDS13]\, DFASM1 [DFASM1]\, EN ATTENTE HORAIRESSéminaire
+  Gynécologie - Obstétrique\nDépartement : PIF\nUFR : UFR Simone Veil San
+ té\nCatégorie : Séminaire\nModules : MSMEDS13
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS13-Gynécologie Obstétrique [
+ MSMEDS13]\, DFASM1 [DFASM1]\, EN ATTENTE HORAIRESSéminaire Gynécologie -
+  Obstétrique
 CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:e9f503dd869ca7c04045a8ece82c9035c75f2be5@uvsq
-DTSTAMP:20260902T115546Z
+DTSTAMP:20260902T121941Z
 DTSTART;TZID=Europe/Paris:20260908T153000
 DTEND;TZID=Europe/Paris:20260908T170000
-SUMMARY:Rentrée\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nD
- FASM1 [DFASM1]\n\n\n\n\nRentrée DFASM1\n\n\n\n\n\n
-DESCRIPTION:Rentrée\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\
- n\nDFASM1 [DFASM1]\n\n\n\n\nRentrée DFASM1\n\n\n\n\n\n\n\nDépartement: P
- IF\nUFR: UFR Simone Veil Santé\nCatégorie: Rentrée
-LOCATION:UFR SIMONE VEIL
+SUMMARY:Rentrée – Rentrée DFASM1
+DESCRIPTION:Rentrée DFASM1\nSalle(s) : SV Amphi 1 Gilles Chiocchia\nDépar
+ tement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Rentrée
+LOCATION:SV Amphi 1 Gilles Chiocchia
 CATEGORIES:Rentrée
 END:VEVENT
 BEGIN:VEVENT
 UID:e753c41d0e7c7f6afe108eec5d3abdd3e59946c3@uvsq
-DTSTAMP:20260902T115546Z
+DTSTAMP:20260902T121941Z
 DTSTART;TZID=Europe/Paris:20260925T080000
 DTEND;TZID=Europe/Paris:20260925T180000
-SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS18-
- ORL [MSMEDS18]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE HORAIRES\nSé
- minaire\nORL\n\n\n\n\n\n
-DESCRIPTION:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMED
- S18-ORL [MSMEDS18]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE HORAIRES
- \nSéminaire\nORL\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil S
- anté\nCatégorie: Séminaire\nModules: MSMEDS18
-LOCATION:UFR SIMONE VEIL
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS18-ORL [MSMEDS
+ 18]\, DFASM1 [DFASM1]\, EN ATTENTE HORAIRESSéminaireORL\nDépartement : P
+ IF\nUFR : UFR Simone Veil Santé\nCatégorie : Séminaire\nModules : MSMEDS
+ 18
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS18-ORL [MSMEDS18]\, DFASM1 [
+ DFASM1]\, EN ATTENTE HORAIRESSéminaireORL
 CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:8220c71e7034aa10c4b449b5bc67fa6663724baa@uvsq
-DTSTAMP:20260902T115546Z
+DTSTAMP:20260902T121941Z
 DTSTART;TZID=Europe/Paris:20260924T080000
 DTEND;TZID=Europe/Paris:20260924T180000
-SUMMARY:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMEDS18-
- ORL [MSMEDS18]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE HORAIRES\nSé
- minaire\nORL\n\n\n\n\n\n
-DESCRIPTION:Séminaire\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\nMSMED
- S18-ORL [MSMEDS18]\n\n\n\n\nDFASM1 [DFASM1]\n\n\n\n\nEN ATTENTE HORAIRES
- \nSéminaire\nORL\n\n\n\n\n\n\n\nDépartement: PIF\nUFR: UFR Simone Veil S
- anté\nCatégorie: Séminaire\nModules: MSMEDS18
-LOCATION:UFR SIMONE VEIL
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS18-ORL [MSMEDS
+ 18]\, DFASM1 [DFASM1]\, EN ATTENTE HORAIRESSéminaireORL\nDépartement : P
+ IF\nUFR : UFR Simone Veil Santé\nCatégorie : Séminaire\nModules : MSMEDS
+ 18
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS18-ORL [MSMEDS18]\, DFASM1 [
+ DFASM1]\, EN ATTENTE HORAIRESSéminaireORL
 CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:1a9f1b64030862bcdcfd057264df0d539480385a@uvsq
-DTSTAMP:20260902T115546Z
+DTSTAMP:20260902T121941Z
 DTSTART;TZID=Europe/Paris:20261103T163000
 DTEND;TZID=Europe/Paris:20261103T190000
-SUMMARY:CM\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nDFASM1
-  [DFASM1]\n\n\n\n\nRéunion \nPrésentation ECOS\n\n\n\n\n\n
-DESCRIPTION:CM\n\n\n\n\nSV Amphi 1 Gilles Chiocchia\n\n\n\n\n\n\n\n\n\nDF
- ASM1 [DFASM1]\n\n\n\n\nRéunion \nPrésentation ECOS\n\n\n\n\n\n\n\nDépart
- ement: PIF\nUFR: UFR Simone Veil Santé\nCatégorie: CM
-LOCATION:UFR SIMONE VEIL
+SUMMARY:CM – Réunion Présentation ECOS
+DESCRIPTION:Réunion Présentation ECOS\nSalle(s) : SV Amphi 1 Gilles Chioc
+ chia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : CM
+LOCATION:SV Amphi 1 Gilles Chiocchia
 CATEGORIES:CM
 END:VEVENT
 END:VCALENDAR
