@@ -8,7 +8,7 @@
 
 import sys
 import requests, hashlib, html, re
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 BASE_URL = "https://edt.uvsq.fr/Home/GetCalendarData"
@@ -49,40 +49,99 @@ def make_uid(ev: dict) -> str:
     base = f"{ev.get('id')}|{ev.get('start')}|{ev.get('end')}"
     return hashlib.sha1(base.encode("utf-8")).hexdigest() + "@uvsq"
 
+
+
+def parse_description(raw_desc: str, category: str) -> tuple[list[str], str]:
+    """
+    Le champ 'description' brut de Celcat encode plusieurs infos dans un
+    seul bloc de texte HTML, séparées par des <br />, dans un ordre fixe :
+    [catégorie, salle(s)..., (vide), "GROUPE [GROUPE]", titre/notes, (vide)]
+    Cette fonction extrait la liste des salles et le titre/notes utile.
+    """
+    if not raw_desc:
+        return [], ""
+
+    text = html.unescape(raw_desc)
+    blocks = [b.replace("\r", "").replace("\n", "").strip() for b in text.split("<br />")]
+
+    idx = 0
+    if blocks and blocks[0].lower() == (category or "").lower():
+        idx = 1
+
+    rooms = []
+    while idx < len(blocks) and blocks[idx] != "":
+        rooms.append(blocks[idx])
+        idx += 1
+
+    while idx < len(blocks) and blocks[idx] == "":
+        idx += 1
+
+    if idx < len(blocks) and re.match(r"^.+\[.+\]$", blocks[idx]):
+        idx += 1
+
+    while idx < len(blocks) and blocks[idx] == "":
+        idx += 1
+
+    title_parts = [b for b in blocks[idx:] if b]
+    title = " – ".join(title_parts)
+
+    return rooms, title
+
+
 def build_event(ev: dict) -> str:
     start = iso_to_paris(ev["start"])
     end = iso_to_paris(ev["end"])
 
-    desc = ev.get("description") or ""
-    summary = esc(desc.split("\\n", 1)[0] or "Cours")
-    description = esc(desc)
+    category = ev.get("eventCategory") or ""
+    rooms, title = parse_description(ev.get("description"), category)
 
-    # Lieu
-    sites = ev.get("sites") or []
-    if isinstance(sites, list):
-        location = esc(", ".join(sites))
+    # Si Celcat ne renvoie pas de description exploitable, on se rabat
+    # sur le champ structuré 'sites' quand il existe.
+    if not rooms:
+        sites = ev.get("sites") or []
+        rooms = sites if isinstance(sites, list) else [str(sites)]
+
+    location = ", ".join(rooms)
+
+    if category and title:
+        summary = f"{category} – {title}"
+    elif title:
+        summary = title
+    elif category:
+        summary = category
     else:
-        location = esc(str(sites))
+        summary = "Cours"
 
-    cat = esc(ev.get("eventCategory") or "")
-    dept = esc(ev.get("department") or "")
-    fac = esc(ev.get("faculty") or "")
+    dept = ev.get("department") or ""
+    fac = ev.get("faculty") or ""
     mods = ev.get("modules")
     if mods:
         try:
-            mods = ", ".join([str(m) for m in mods])
+            mods = ", ".join(str(m) for m in mods)
         except Exception:
             mods = str(mods)
-    extra = []
-    if dept: extra.append(f"Département: {dept}")
-    if fac: extra.append(f"UFR: {fac}")
-    if cat: extra.append(f"Catégorie: {cat}")
-    if mods: extra.append(f"Modules: {mods}")
-    if extra:
-        description = (description + "\\n\\n" + "\\n".join(extra)).strip()
+
+    desc_lines = []
+    if title:
+        desc_lines.append(title)
+    if location:
+        desc_lines.append(f"Salle(s) : {location}")
+    if dept:
+        desc_lines.append(f"Département : {dept}")
+    if fac:
+        desc_lines.append(f"UFR : {fac}")
+    if category:
+        desc_lines.append(f"Catégorie : {category}")
+    if mods:
+        desc_lines.append(f"Modules : {mods}")
+
+    description = esc("\n".join(desc_lines))
+    summary = esc(summary)
+    location = esc(location)
+    category = esc(category)
 
     uid = make_uid(ev)
-    dtstamp = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    dtstamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     lines = [
         "BEGIN:VEVENT",
@@ -90,18 +149,19 @@ def build_event(ev: dict) -> str:
         f"DTSTAMP:{dtstamp}",
         f"DTSTART;TZID=Europe/Paris:{fmt_local(start)}",
         f"DTEND;TZID=Europe/Paris:{fmt_local(end)}",
-        f"SUMMARY:{summary}" if summary else "SUMMARY:Événement",
+        f"SUMMARY:{summary}",
     ]
     if description:
         lines.append("DESCRIPTION:" + description)
     if location:
         lines.append("LOCATION:" + location)
-    if cat:
-        lines.append("CATEGORIES:" + cat)
+    if category:
+        lines.append("CATEGORIES:" + category)
     lines.append("END:VEVENT")
 
     # pliage des lignes longues
     return "\r\n".join(fold_ics_line(l) for l in lines)
+
 
 def fetch_events(group: str, start_date: datetime, end_date: datetime) -> list[dict]:
     data = {
