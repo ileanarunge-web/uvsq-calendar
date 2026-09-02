@@ -103,7 +103,7 @@ def build_event(ev: dict) -> str:
     # pliage des lignes longues
     return "\r\n".join(fold_ics_line(l) for l in lines)
 
-def fetch_events(group: str; start_date: datetime, end_date: datetime) -> list[dict]:
+def fetch_events(group: str, start_date: datetime, end_date: datetime) -> list[dict]:
     data = {
         "resType": "103",
         "calView": "month",
