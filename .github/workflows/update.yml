@@ -8,6 +8,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - group: DFASM1
+            output: emploi_dfasm1.ics
+          - group: DFASM2
+            output: emploi_dfasm2.ics
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
@@ -16,12 +23,13 @@ jobs:
           python-version: '3.x'
       - name: Install dependencies
         run: pip install requests ics
-      - name: Generate ICS
-        run: python main.py
+      - name: Generate ICS for ${{ matrix.group }}
+        run: python main.py ${{ matrix.group }} ${{ matrix.output }} 
       - name: Commit and push
         run: |
           git config user.name 'GitHub Actions'
           git config user.email 'actions@github.com'
-          git add emploi.ics
-          git commit -m 'Update emploi.ics' || echo 'No changes to commit'
+          git pull --rebase
+          git add ${{ matrix.output }}
+          git commit -m 'Update ${{ matrix.output }}' || echo 'No changes to commit'
           git push
