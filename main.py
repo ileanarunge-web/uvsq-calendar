@@ -1,18 +1,17 @@
 # UVSQ Celcat -> ICS (Europe/Paris)
-# Fenêtre: J-30 à J+120. Ecrit emploi.ics
+# Fenêtre: J-30 à J+120.
+# Usage :
+#   python main.py DFASM1 emploi_dfasm1.ics
+#   python main.py DFASM2 emploi_dfasm2.ics
+#
+# Sans argument : DFASM1 / emploi.ics (comportement historique)
 
+import sys
 import requests, hashlib, html, re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 BASE_URL = "https://edt.uvsq.fr/Home/GetCalendarData"
-
-PAYLOAD_BASE = {
-    "resType": "103",
-    "calView": "month",
-    "federationIds[]": "DFASM1",
-    "colourScheme": "3",
-}
 
 PARIS = ZoneInfo("Europe/Paris")
 
@@ -104,9 +103,12 @@ def build_event(ev: dict) -> str:
     # pliage des lignes longues
     return "\r\n".join(fold_ics_line(l) for l in lines)
 
-def fetch_events(start_date: datetime, end_date: datetime) -> list[dict]:
+def fetch_events(group: str; start_date: datetime, end_date: datetime) -> list[dict]:
     data = {
-        **PAYLOAD_BASE,
+        "resType": "103",
+        "calView": "month",
+        "federationIds[]": group,
+        "colourScheme": "3",
         "start": start_date.strftime("%Y-%m-%d"),
         "end": end_date.strftime("%Y-%m-%d"),
     }
@@ -121,11 +123,14 @@ def fetch_events(start_date: datetime, end_date: datetime) -> list[dict]:
     return r.json()
 
 def main():
+    group = sys.argv[1] if len(sys.argv) > 1 else "DFASM1"
+    output_file = sys.argv[2] if len(sys.argv) > 2 else "emploi.ics"
+    
     today = datetime.now(PARIS).date()
     start = datetime.combine(today - timedelta(days=30), datetime.min.time()).replace(tzinfo=PARIS)
     end = datetime.combine(today + timedelta(days=120), datetime.min.time()).replace(tzinfo=PARIS)
 
-    events = fetch_events(start, end)
+    events = fetch_events(group, start, end)
 
     header = "\r\n".join([
         "BEGIN:VCALENDAR",
@@ -133,8 +138,8 @@ def main():
         "PRODID:-//UVSQ Exporter//FR",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "NAME:UVSQ DFASM1",
-        "X-WR-CALNAME:UVSQ DFASM1",
+        f"NAME:UVSQ {group}",
+        f"X-WR-CALNAME:UVSQ {group}",
         "X-WR-TIMEZONE:Europe/Paris",
     ])
     body = []
@@ -147,8 +152,9 @@ def main():
 
     ics = header + "\r\n" + "\r\n".join(body) + "\r\nEND:VCALENDAR\r\n"
 
-    with open("emploi.ics", "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write(ics)
+        print(f"OK : {len(events)} événements écrits dans {output_file} (groupe {group})")
 
 if __name__ == "__main__":
     main()
