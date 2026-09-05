@@ -8,7 +8,7 @@ X-WR-CALNAME:UVSQ DFASM2
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:ab6d3f2bf9f370ddf6cf512984dfe53b4e49c6c1@uvsq
-DTSTAMP:20260904T020043Z
+DTSTAMP:20260905T020054Z
 DTSTART;TZID=Europe/Paris:20260929T153000
 DTEND;TZID=Europe/Paris:20260929T170000
 SUMMARY:Rentrée – Rentrée DFASM2
@@ -18,33 +18,25 @@ LOCATION:SV Amphi 2
 CATEGORIES:Rentrée
 END:VEVENT
 BEGIN:VEVENT
-UID:0e25a8ccb86003f529432eb0b84c14eee7aac1e4@uvsq
-DTSTAMP:20260904T020043Z
-DTSTART;TZID=Europe/Paris:20260917T080000
+UID:ca800930e9f602ba39d5f42ba0645a56c69f76ce@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20260917T093000
 DTEND;TZID=Europe/Paris:20260917T180000
-SUMMARY:Séminaire – EN ATTENTE HORAIRESSéminaireINFECTIOLOGIE
-DESCRIPTION:EN ATTENTE HORAIRESSéminaireINFECTIOLOGIE\nSalle(s) : SV Amph
- i 1 Gilles Chiocchia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCa
- tégorie : Séminaire
-LOCATION:SV Amphi 1 Gilles Chiocchia
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS31-Maladies tr
+ ansmissibles_Risques pour la santé_Santé au W [MSMEDS31]\, DFASM2 [DFASM
+ 2]\, EN ATTENTE HORAIRESSéminaireMALADIES INFECTIEUSES\nDépartement : PI
+ F\nUFR : UFR Simone Veil Santé\nCatégorie : Séminaire\nModules : MSMEDS3
+ 1
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS31-Maladies transmissibles_R
+ isques pour la santé_Santé au W [MSMEDS31]\, DFASM2 [DFASM2]\, EN ATTENT
+ E HORAIRESSéminaireMALADIES INFECTIEUSES
 CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
-UID:d07300e51ad750c92e984926c19f2f2468a3789b@uvsq
-DTSTAMP:20260904T020043Z
-DTSTART;TZID=Europe/Paris:20260918T080000
-DTEND;TZID=Europe/Paris:20260918T180000
-SUMMARY:Séminaire – EN ATTENTE HORAIRESSéminaireINFECTIOLOGIE
-DESCRIPTION:EN ATTENTE HORAIRESSéminaireINFECTIOLOGIE\nSalle(s) : SV Amph
- i 1 Gilles Chiocchia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCa
- tégorie : Séminaire
-LOCATION:SV Amphi 1 Gilles Chiocchia
-CATEGORIES:Séminaire
-END:VEVENT
-BEGIN:VEVENT
-UID:5d910039c487754615a5de51be316139b36abae3@uvsq
-DTSTAMP:20260904T020043Z
-DTSTART;TZID=Europe/Paris:20261001T080000
+UID:3ae0c7087d2f9a451d14987ea1bd1fe8a3ebe255@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261001T093000
 DTEND;TZID=Europe/Paris:20261001T180000
 SUMMARY:Séminaire
 DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS33-Nephrologie
@@ -57,7 +49,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:4664828a09295cbbec3a797cc0a74697d1c81460@uvsq
-DTSTAMP:20260904T020043Z
+DTSTAMP:20260905T020054Z
 DTSTART;TZID=Europe/Paris:20261002T080000
 DTEND;TZID=Europe/Paris:20261002T180000
 SUMMARY:Séminaire
@@ -70,8 +62,70 @@ LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS33-Nephrologie [MSMEDS33]\,
 CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
+UID:08dd498bf642302921f515e6c7260d5d7cf3d95b@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20260918T080000
+DTEND;TZID=Europe/Paris:20260918T180000
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS31-Maladies tr
+ ansmissibles_Risques pour la santé_Santé au W [MSMEDS31]\, DFASM2 [DFASM
+ 2]\, EN ATTENTE HORAIRESSéminaireMALADIES INFECTIEUSES\nDépartement : PI
+ F\nUFR : UFR Simone Veil Santé\nCatégorie : Séminaire\nModules : MSMEDS3
+ 1
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS31-Maladies transmissibles_R
+ isques pour la santé_Santé au W [MSMEDS31]\, DFASM2 [DFASM2]\, EN ATTENT
+ E HORAIRESSéminaireMALADIES INFECTIEUSES
+CATEGORIES:Séminaire
+END:VEVENT
+BEGIN:VEVENT
+UID:f6d82d4f0baef9ec5f07857f10a0ed85939e507c@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20260917T090000
+DTEND;TZID=Europe/Paris:20260917T093000
+SUMMARY:Examen – Pré-requis
+DESCRIPTION:Pré-requis\nSalle(s) : SV Amphi 1 Gilles Chiocchia\nDéparteme
+ nt : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Examen
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Examen
+END:VEVENT
+BEGIN:VEVENT
+UID:5b2b859c96f47b61384571df9b75043410598e94@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20260917T080000
+DTEND;TZID=Europe/Paris:20260917T090000
+SUMMARY:Autres – Distribution destablettes
+DESCRIPTION:Distribution destablettes\nSalle(s) : SV Amphi 1 Gilles Chioc
+ chia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Autres
+ 
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Autres
+END:VEVENT
+BEGIN:VEVENT
+UID:0752dab9f58fbbd2fddb21253d3618b6701a748f@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261001T080000
+DTEND;TZID=Europe/Paris:20261001T090000
+SUMMARY:Autres – Distribution destablettes
+DESCRIPTION:Distribution destablettes\nSalle(s) : SV Amphi 1 Gilles Chioc
+ chia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Autres
+ 
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Autres
+END:VEVENT
+BEGIN:VEVENT
+UID:3f5442ef085654d6b2a112ede16a1ae22fc32131@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261001T090000
+DTEND;TZID=Europe/Paris:20261001T093000
+SUMMARY:Examen – Pré-requis
+DESCRIPTION:Pré-requis\nSalle(s) : SV Amphi 1 Gilles Chiocchia\nDéparteme
+ nt : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Examen
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Examen
+END:VEVENT
+BEGIN:VEVENT
 UID:6d58a78137ad1e025ed30b175af0bd1c62971a6f@uvsq
-DTSTAMP:20260904T020043Z
+DTSTAMP:20260905T020054Z
 DTSTART;TZID=Europe/Paris:20261202T080000
 DTEND;TZID=Europe/Paris:20261202T180000
 SUMMARY:Examen – ECOS
@@ -85,9 +139,9 @@ LOCATION:SV SALLE 1\, SV Salle 10\, SV Salle 11\, SV Salle 12\, SV SALLE
 CATEGORIES:Examen
 END:VEVENT
 BEGIN:VEVENT
-UID:951cc8a4271f580f062fa6e0f4a0f2a9ce059322@uvsq
-DTSTAMP:20260904T020043Z
-DTSTART;TZID=Europe/Paris:20261029T080000
+UID:e3e53da751f029c12f801ddbb7079ae8f37a3653@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261029T093000
 DTEND;TZID=Europe/Paris:20261029T180000
 SUMMARY:Séminaire
 DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS32-Réanimation
@@ -100,7 +154,7 @@ CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
 UID:cc96ca0b555328eccb3bda9a0a0ab8bb2ee0610b@uvsq
-DTSTAMP:20260904T020043Z
+DTSTAMP:20260905T020054Z
 DTSTART;TZID=Europe/Paris:20261030T080000
 DTEND;TZID=Europe/Paris:20261030T180000
 SUMMARY:Séminaire
@@ -113,15 +167,176 @@ LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS32-Réanimation Urgences [MSM
 CATEGORIES:Séminaire
 END:VEVENT
 BEGIN:VEVENT
-UID:b165464e0616abd1f8f860ea2f7aab61ba258bb1@uvsq
-DTSTAMP:20260904T020043Z
-DTSTART;TZID=Europe/Paris:20261113T080000
+UID:4f462138fefd2cc5cc456234fe09cbf720fb7097@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261113T093000
 DTEND;TZID=Europe/Paris:20261113T180000
-SUMMARY:Séminaire – En attente horairesSéminaireTHERAPEUTIQUE
-DESCRIPTION:En attente horairesSéminaireTHERAPEUTIQUE\nSalle(s) : SV Amph
- i 1 Gilles Chiocchia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCa
- tégorie : Séminaire
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS39-Usage du mé
+ dicament et Thérapeutiques non médicamenteuses [MSMEDS39]\, DFASM2 [DFAS
+ M2]\, En attente horairesSéminaireTHERAPEUTIQUE\nDépartement : PIF\nUFR 
+ : UFR Simone Veil Santé\nCatégorie : Séminaire\nModules : MSMEDS39
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS39-Usage du médicament et Th
+ érapeutiques non médicamenteuses [MSMEDS39]\, DFASM2 [DFASM2]\, En atten
+ te horairesSéminaireTHERAPEUTIQUE
+CATEGORIES:Séminaire
+END:VEVENT
+BEGIN:VEVENT
+UID:41a843f8d58c7a146e969ab2aadd7dcc4c6ea2f8@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261012T170000
+DTEND;TZID=Europe/Paris:20261012T190000
+SUMMARY:TD distanciel – DFASM2 [DFASM2] – ZOOMConférence UE transversaleM
+ aladies infectieuses
+DESCRIPTION:DFASM2 [DFASM2] – ZOOMConférence UE transversaleMaladies infe
+ ctieuses\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : TD
+  distanciel\nModules : MSMED614
+CATEGORIES:TD distanciel
+END:VEVENT
+BEGIN:VEVENT
+UID:fe141100df782c66dece9a35cfca18374b9fdd5c@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261109T170000
+DTEND;TZID=Europe/Paris:20261109T190000
+SUMMARY:Conférence
+DESCRIPTION:Salle(s) : SV Amphi 3\, MSMEDS33-Nephrologie [MSMEDS33]\, DFA
+ SM2 [DFASM2]\, Conférence UE transversaleNEPHROLOGIE\nCatégorie : Confér
+ ence\nModules : MSMEDS33
+LOCATION:SV Amphi 3\, MSMEDS33-Nephrologie [MSMEDS33]\, DFASM2 [DFASM2]\,
+  Conférence UE transversaleNEPHROLOGIE
+CATEGORIES:Conférence
+END:VEVENT
+BEGIN:VEVENT
+UID:5bf916c0b250f96768f8deed6febd5e15e81fc45@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261123T170000
+DTEND;TZID=Europe/Paris:20261123T190000
+SUMMARY:Conférence
+DESCRIPTION:Salle(s) : SV Amphi 3\, MSMEDS32-Réanimation Urgences [MSMEDS
+ 32]\, DFASM2 [DFASM2]\, Conférence UE transversaleREANIMATION\nCatégorie
+  : Conférence\nModules : MSMEDS32
+LOCATION:SV Amphi 3\, MSMEDS32-Réanimation Urgences [MSMEDS32]\, DFASM2 [
+ DFASM2]\, Conférence UE transversaleREANIMATION
+CATEGORIES:Conférence
+END:VEVENT
+BEGIN:VEVENT
+UID:52fd752f6d805282e0042a7977b9cbd235d4edf6@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261105T093000
+DTEND;TZID=Europe/Paris:20261105T123000
+SUMMARY:CM – MG [MG] – MG
+DESCRIPTION:MG [MG] – MG\nSalle(s) : SV SALLE 1\nDépartement : PIF\nUFR :
+  UFR Simone Veil Santé\nCatégorie : CM
+LOCATION:SV SALLE 1
+CATEGORIES:CM
+END:VEVENT
+BEGIN:VEVENT
+UID:fcea6f84b9a9382d0c20000da9af9b1b97cc093b@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261029T080000
+DTEND;TZID=Europe/Paris:20261029T090000
+SUMMARY:Autres – Distribution destablettes
+DESCRIPTION:Distribution destablettes\nSalle(s) : SV Amphi 1 Gilles Chioc
+ chia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Autres
+ 
 LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Autres
+END:VEVENT
+BEGIN:VEVENT
+UID:54ae58d0f15c625422bb1a54f45c6c1a5bfe8e92@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261029T090000
+DTEND;TZID=Europe/Paris:20261029T093000
+SUMMARY:Examen – Pré-requis
+DESCRIPTION:Pré-requis\nSalle(s) : SV Amphi 1 Gilles Chiocchia\nDéparteme
+ nt : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Examen
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Examen
+END:VEVENT
+BEGIN:VEVENT
+UID:a40ddf3834dc1cf258563c7fb09a2f3b86f9185d@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261113T080000
+DTEND;TZID=Europe/Paris:20261113T090000
+SUMMARY:Autres – Distribution des tablettes
+DESCRIPTION:Distribution des tablettes\nSalle(s) : SV Amphi 1 Gilles Chio
+ cchia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Autre
+ s
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Autres
+END:VEVENT
+BEGIN:VEVENT
+UID:6f7a34e6463face20528f9b4d96c6497bcafb154@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261113T090000
+DTEND;TZID=Europe/Paris:20261113T093000
+SUMMARY:Examen – Pré-requis
+DESCRIPTION:Pré-requis\nSalle(s) : SV Amphi 1 Gilles Chiocchia\nDéparteme
+ nt : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Examen
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Examen
+END:VEVENT
+BEGIN:VEVENT
+UID:227263a4e982e38a98f0b277b6faf25a6ee337cd@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261207T170000
+DTEND;TZID=Europe/Paris:20261207T190000
+SUMMARY:TD distanciel – DFASM2 [DFASM2] – Conférence UE transversaleTHERA
+ PEUTIQUE
+DESCRIPTION:DFASM2 [DFASM2] – Conférence UE transversaleTHERAPEUTIQUE\nDé
+ partement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : TD distanciel\
+ nModules : MSMEDS39
+CATEGORIES:TD distanciel
+END:VEVENT
+BEGIN:VEVENT
+UID:6f1798db7b002ac6187c94efd70f2c88049a80b7@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261126T080000
+DTEND;TZID=Europe/Paris:20261126T090000
+SUMMARY:Autres – Distribution des tablettes
+DESCRIPTION:Distribution des tablettes\nSalle(s) : SV Amphi 1 Gilles Chio
+ cchia\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Autre
+ s
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Autres
+END:VEVENT
+BEGIN:VEVENT
+UID:c8308a27364b743c57029e0b0b80ed4d31139576@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261126T090000
+DTEND;TZID=Europe/Paris:20261126T093000
+SUMMARY:Examen – Pré-requis
+DESCRIPTION:Pré-requis\nSalle(s) : SV Amphi 1 Gilles Chiocchia\nDéparteme
+ nt : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Examen
+LOCATION:SV Amphi 1 Gilles Chiocchia
+CATEGORIES:Examen
+END:VEVENT
+BEGIN:VEVENT
+UID:54075c2688c7c5865597db0d7d5124341b3e61c0@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261126T093000
+DTEND;TZID=Europe/Paris:20261126T180000
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS37-Dermatologi
+ e [MSMEDS37]\, DFASM2 [DFASM2]\, En attente horairesSéminaireDERMATOLOGI
+ E\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Séminaire
+ \nModules : MSMEDS37
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS37-Dermatologie [MSMEDS37]\,
+  DFASM2 [DFASM2]\, En attente horairesSéminaireDERMATOLOGIE
+CATEGORIES:Séminaire
+END:VEVENT
+BEGIN:VEVENT
+UID:0e7a8ff1269c562af10fa0e9ff3e437456b830be@uvsq
+DTSTAMP:20260905T020054Z
+DTSTART;TZID=Europe/Paris:20261127T080000
+DTEND;TZID=Europe/Paris:20261127T180000
+SUMMARY:Séminaire
+DESCRIPTION:Salle(s) : SV Amphi 1 Gilles Chiocchia\, MSMEDS37-Dermatologi
+ e [MSMEDS37]\, DFASM2 [DFASM2]\, En attente horairesSéminaireDERMATOLOGI
+ E\nDépartement : PIF\nUFR : UFR Simone Veil Santé\nCatégorie : Séminaire
+ \nModules : MSMEDS37
+LOCATION:SV Amphi 1 Gilles Chiocchia\, MSMEDS37-Dermatologie [MSMEDS37]\,
+  DFASM2 [DFASM2]\, En attente horairesSéminaireDERMATOLOGIE
 CATEGORIES:Séminaire
 END:VEVENT
 END:VCALENDAR
