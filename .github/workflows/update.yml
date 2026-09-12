@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
-      max-parallel:1 
+      max-parallel: 1 
       matrix:
         include:
           - group: DFASM1
